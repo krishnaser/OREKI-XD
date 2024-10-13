@@ -2,7 +2,7 @@ const config = require('../config')
 const {eypz , commands} = require('../command')
 
 eypz({
-    pattern: "cronex",
+    pattern: "oreki",
     desc: "For Ptv",
     category: "main",
     filename: __filename
@@ -11,7 +11,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
     const Ameen = 'https://files.catbox.moe/7q1fzw.mp4'
   m.react('❤️')
-return await conn.sendMessage(from, { video: { url: Ameen }, mimetype: 'video/mp4', gifPlayback: true, ptv: true, caption: "◽By Ameen!" })
+return await conn.sendMessage(from, { video: { url: Ameen }, mimetype: 'video/mp4', gifPlayback: true, ptv: true, caption: "◽By Krishna!" })
 }catch(e){
 console.log(e)
 reply(`${e}`)
