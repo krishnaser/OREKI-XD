@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await fs.promises.writeFile(pluginPath, file.content);
         }
 
-        reply(`*PLUGINS INSTALLED ✅*\n_${pluginName}_\n> © 𝐂𝐚𝐥𝐜𝐢𝐅𝐞𝐫⚡`);
+        reply(`*PLUGINS INSTALLED ✅*\n_${pluginName}_\n> © Wizzkid⚡`);
 
     } catch (e) {
         console.error(e);
